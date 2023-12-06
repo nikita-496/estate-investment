@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap');
+@import url('./slider.css');
+
+.html, body{
+    background: #F5F5F7 !important;
+}
+
+p{
+    font-family: 'Manrope', sans-serif;
+    margin-bottom: 0px !important;
+    line-height: 120%;
+}
+
+h1, h2, h3{
+    font-family: 'ActayBold', sans-serif;
+    margin: 0px !important;
+    line-height: 100% !important;
+}
+
+.nav-link, .navbar-brand{
+    color: #FFFFFF !important;
+}
+.navbar-collapse{
+    justify-content: end;
+}
+.image-wrapper{
+    gap: 10px;
+}
+.section-hero{
+    background-image: url('../img/background-hero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.section-title{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 100%;
+}
+.section-title_white, .section-subtitle_white{
+    color: #fff;
+}
+.section-subtitle{
+    padding-top: 25px
+}
+.section-howItWork{
+    position: relative;
+    background-image: url('../img/background-how-it-work.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.section-profit{
+    background-image: url('../img/background-bbockchain-benefits.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.section-profit__card-row{
+   width: 400px;
+    background-color: rgb(225, 225, 225, .1);
+    backdrop-filter: blur(8px);
+}
+.section-profit__card-text{
+    margin-bottom: 0px;
+}
+.section-profit__card-group-row{
+    gap: 100px;
+    padding-bottom: 120px;
+}
+.section-profit__card-row {
+    gap: 20px;
+}
+/*.blur{
+    background-image: url('../img/blur.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    backdrop-filter: blur(4px);
+}*/
+
+.section-default{
+    margin: 60px 0px;
+}
+
+.section-profit__card-odd{
+    justify-content: start;
+}
+.section-profit__card-even{
+    justify-content: end;
+}
+
+.hero-subtitle{
+    color: #ffff;
+    font-size: 20px;
+    line-height: 120%;
+    width: 90%;
+}
+.hero-subtitle_bold{
+    font-weight: 700;
+    margin: 25px 0px !important;
+}
+
+.btn_white{
+    background: white !important;
+}
+.col-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.row-title{
+    padding-top: 120px;
+    padding-bottom: 70px;
+}
+.section-profit__subtitle{
+    padding-top: 75px;
+    width: 610px !important;
+}
+.section-registration__card, .section-calculate__card{
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    padding: 10px !important;
+    border-radius: 10px !important;
+}
+
+.section-calculate__card{
+    justify-content: space-between;
+}
+.section-registration__card-text{
+    width: 270px;
+}
+.section-registration__card-row{
+    gap: 20px;
+    margin-top: 75px !important;
+    justify-content: space-between;
+}
+
+.hero-title{
+    margin-top: 40px;
+    font-size: 32px;
+    color: #FFFFFF;
+    line-height: 100%;
+}
+.section-brands__img{
+    width: 162px;
+}
+
+.btn_action{
+    border-radius: 10px !important;
+}
+.hero__btn_action {
+    padding: 20px 100.5px !important;
+}
+.section-subtitle_black{
+    color: rgba(37,37,37, 0.8)
+}
+
+.btn{
+    border: none;
+    font-size: 24px !important;
+    font-weight: 500 !important;
+    border-radius: 10px !important;
+}
+.btn_white{
+    background-color: #ffff;
+    color: #000;
+}
+.section-profit__card-title_white{
+    color: #ffff;
+}
+.section-profit__card-row {
+    border-radius: 10px;
+    padding: 10px;
+}
+.footer{
+    background-color: #252525;
+    padding: 120px 0px 180px 0px;
+}
+.footer-col__title, .footer-col__input, .footer-col__btn{
+    display: flex;
+    justify-content: center;
+}
+.footer-col__input{
+    margin-top: 75px !important;
+    gap: 20px;
+}
+.footer__btn{
+    width: 810px !important;
+    margin-top: 25px;
+    height: 83px;
+}
+.footer__input{
+    width: 400px !important;
+    border-radius: 10px !important;
+    height: 64px;
+    background-color: rgb(255, 255, 255, .05);
+    border: none;
+}
+.section-project{
+    position: relative;
+    background-image: url('../img/background-project-1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.section-subtitle_calculate{
+    padding-top: 0px;
+}
+.value-group{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 42.5px;
+}
+.section-calculate-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (min-width: 576px) { 
+    .hero-row{
+        position: relative;
+    }
+    .section-default{
+        margin: 120px 0px;
+    }
+    .section-profit__card-odd{
+        justify-content: end;
+    }
+    .section-profit__card-even{
+        justify-content: start;
+    }
+      .image-cards{
+        position: relative;
+    }
+    .col-controls{
+        display: flex;
+        flex-direction: column;
+        margin-top: 75px !important;
+        gap: 20px;
+    }
+    .col-controls__item{
+        display: flex;
+    }
+}
+@media (min-width: 991.98px) { 
+    .image-cards{
+        position: absolute;
+        right: 80px;
+        top:0px
+    }
+    .section-hero {
+        height: 850px;
+    }
+   .hero-contnet {
+        margin-top: 105.31px;
+    }
+    .col-content{
+        display: block;
+    }
+    .section-brands__img{
+        width: 100%;
+    }
+    .hero-title{
+        font-size: 64px;
+    }
+    .blur{
+        padding: 120px 100px 0px 100px;
+    }
+    .hero-contnet{
+        width: 680px;
+        margin-top: 40px;
+    }
+    .hero-row{
+        margin-top: 82.31px !important;
+        gap: 64px
+    }
+    .section-title{
+        font-size: 48px;
+        font-weight: 700;
+    }
+    .section-subtitle{
+        font-size: 20px;
+    }
+    .section-subtitle_brands{
+        max-width: 610px !important;
+    }
+    .section-brands-row{
+        gap: 75px;
+    }
+    .section-howItWork-title{
+        padding-top: 120px;
+        width: 510px;
+    }
+    .section-howItWork__img-wrapper{
+        margin-top: 73px;
+    }
+    .controlls-wrapper{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 221px;
+        padding-bottom: 120px;
+    }
+    .controlls-wrapper_project{
+        margin-top: 731px;
+    }
+    .col-blur{
+        position: absolute;
+        right: 0px;
+        /*background-image: url('../img/blur.png');
+        background-repeat: no-repeat;
+        background-position: center;*/
+        backdrop-filter: blur(8px);
+        height: 100%;
+        padding-top: 120px;
+    }
+    .col-blur-project{
+        display: flex;
+        flex-direction: column;
+       align-items: center;
+    }
+     .section-registration__subtitle{
+        width: 65% !important;
+    }
+    .section-registration__card{
+        width: 270px !important;
+    }
+    .section-title_project{
+        margin-top: 70px !important;
+    }
+    .project__btn{
+        margin-top: 68.5px;
+        width: 100%;
+    }
+    .section-project-wrapper{
+        width: 74%;
+    }
+    .section-calculate-row{
+        gap: 20px !important;
+    }
+    .section-subtitle_calculate-last{
+        height: 130px;
+        width: 400px;
+    }
+    .section-subtitle_calculate-total{
+        width: 190px;
+    }
+    .section-subtitle_calculate-quantity{
+        flex: 1;
+    }
+ }
+ 
+ @font-face {
+    font-family: "ActayRegular"; 
+    src: url("../fonts/Actay-Regular.otf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 
+
+@font-face {
+    font-family: "ActayBold"; 
+    src: url("../fonts/ActayWide-Bold.otf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}
